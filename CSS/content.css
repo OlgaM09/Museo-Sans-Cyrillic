@@ -102,7 +102,7 @@ body {
     font-family: "Museo Sans Cyrl";
     font-size: 64px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
     width: 326px;
@@ -176,15 +176,15 @@ body {
     display: flex;
     color: #000;
     justify-content: center;  
-    font-family: "Museo Sans Cyrl";
+    font-family: "MuseoSansCyrl_700";
     font-size: 64px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
     width: 326px;
     height: 77px;
-    margin-left: 740px;
+    margin-left: 720px;
     margin-top: -110px;
     margin-right: 80px;
 }
@@ -202,7 +202,7 @@ body {
 
 #letter1 {
     position: absolute;
-    font-family: "Museo Sans Cyril";
+    font-family: "MuseoSansCyrl_900";
     color: rgba(0, 0, 0, 0.36);
     font-size: 150px;
     font-style: normal;
@@ -215,7 +215,7 @@ body {
 
 #letter2 {
     position: absolute;
-    font-family: "Museo Sans Cyril";
+    font-family: "MuseoSansCyrl_700";
     color: rgba(0, 0, 0, 0.36);
     font-size: 150px;
     font-style: normal;
@@ -228,7 +228,7 @@ body {
 
 #letter3 {
     position: absolute;
-    font-family: "Museo Sans Cyril";
+    font-family: "MuseoSansCyrl_500";
     color: rgba(0, 0, 0, 0.36);
     font-size: 150px;
     font-style: normal;
@@ -241,7 +241,7 @@ body {
 
 #letter4 {
     position: absolute;
-    font-family: "Museo Sans Cyril";
+    font-family: "Museo300";
     color: rgba(0, 0, 0, 0.36);
     font-size: 150px;
     font-style: normal;
@@ -254,7 +254,7 @@ body {
 
 #letter5 {
     position: relative;
-    font-family: "Museo Sans Cyril";
+    font-family: "MuseoSansCyrl_100";
     color: rgba(0, 0, 0, 0.36);
     font-size: 150px;
     font-style: normal;
@@ -268,7 +268,7 @@ body {
 .roulette {
     position: absolute;
     margin-left: 320px;
-    margin-top: -840px;
+    margin-top: -860px;
 }
 
 
@@ -297,7 +297,7 @@ body {
     text-transform: capitalize;
     width: 326px;
     height: 77px;
-    margin-left: 382px;
+    margin-left: 420px;
     margin-top: -110px;
     margin-right: 80px;
 }
@@ -326,22 +326,19 @@ body {
 
 .text4 {
     position: relative;
-    font-family: "Museo Sans Cyrl";
+    font-family: "MuseoSansCyrl_500";
     color: #fff;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     height: 38px;
-    white-space: nowrap; /* Ensures the text stays in one line */
+    white-space: nowrap; 
     margin-left: 121px;
     margin-top: 80px;
-   
-
-
-    display: flex; /* Enable flexbox layout */
-    justify-content: flex-start; /* Align items at the start */
-    gap: 130px; /* Adds 50px space between the text sections */
+    display: flex; 
+    justify-content: flex-start;
+    gap: 60px; 
 }
 
 
@@ -362,9 +359,9 @@ body {
 .red1 {
     color: #F00;
     /* Red color */
-    font-family: "Museo Sans Cyrl";
+    font-family: "MuseoSansCyrl_700";
     font-size: 128px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0 5px;
     /* Reduced margin to 5px for less gap */
     text-transform: capitalize;
@@ -383,9 +380,9 @@ body {
 
     color: #000;
     /* Black color */
-    font-family: "Museo Sans Cyrl";
+    font-family: "MuseoSansCyrl_700";
     font-size: 96px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     /* All uppercase letters */
     display: inline-block;
@@ -395,18 +392,10 @@ body {
     /* Reduced margin to 5px for less gap */
 }
 
-
-
-
-
-
 .letters22 {
     margin-top: 15px;
-    /* Adjust this value to increase the gap */
+    
 }
-
-
-
 
 
 
@@ -425,10 +414,10 @@ body {
 .circle1 {
     position:relative;
     margin-top: -300px;
-    margin-left: 340px;
+    margin-left: 370px;
     width: 50px;
     height: 50px;
-    border: 3px solid #000;
+    border: 4px solid #000;
     /* White circle */
     border-radius: 50%;
 
@@ -439,13 +428,13 @@ body {
 
 .circle2 {
     position:relative;
-    margin-top: -50px;
-    margin-left: 575px;
+    margin-top: -80px;
+    margin-left: 590px;
     width: 50px;
     height: 50px;
     background-color: transparent;
     /* White circle */
-    border: 3px solid #000;
+    border: 4px solid #000;
     /* Black border, adjust thickness if needed */
     border-radius: 50%;
     /* Makes the div circular */
@@ -454,13 +443,13 @@ body {
 
 .circle3 {
     position:relative;
-    margin-top: 20px;
-    margin-left: 840px;
+    margin-top: 40px;
+    margin-left: 845px;
     width: 50px;
     height: 50px;
     background-color: transparent;
     /* White circle */
-    border: 3px solid #000;
+    border: 4px solid #000;
     /* Black border, adjust thickness if needed */
     border-radius: 50%;
     /* Makes the div circular */
@@ -468,12 +457,12 @@ body {
 .circle4 {
     position:relative;
     margin-top: -150px;
-    margin-left: 1100px;
+    margin-left: 1090px;
     width: 50px;
     height: 50px;
     background-color: transparent;
     /* White circle */
-    border: 3px solid #000;
+    border: 4px solid #000;
     /* Black border, adjust thickness if needed */
     border-radius: 50%;
     /* Makes the div circular */
@@ -483,12 +472,12 @@ body {
 .circle5 {
     position:relative;
     margin-top: 120px;
-    margin-left: 650px;
+    margin-left: 680px;
     width: 50px;
     height: 50px;
     background-color: transparent;
     /* White circle */
-    border: 3px solid #000;
+    border: 4px solid #000;
     /* Black border, adjust thickness if needed */
     border-radius: 50%;
     /* Makes the div circular */
@@ -505,10 +494,8 @@ body {
     height: 50px;
     background-color: transparent;
     /* White circle */
-    border: 3px solid #000;
-    /* Black border, adjust thickness if needed */
+    border: 4px solid #000;
     border-radius: 50%;
-    /* Makes the div circular */
 }
 
 
@@ -525,9 +512,8 @@ body {
     margin-top: 120px;
     position: absolute;
     justify-content: center;
-    /* Centers content horizontally */
     align-items: center;
-    /* Centers content vertically */
+   
 }
 
 
@@ -571,7 +557,7 @@ body {
     text-transform: capitalize;
     width: 326px;
     height: 77px;
-    margin-left: 740px;
+    margin-left: 720px;
     margin-top: -110px;
     margin-right: 80px;
 }
@@ -679,12 +665,10 @@ body {
 .words {
     position: relative;
     margin-right: 80px;
-    font-family: "Museo Sans Cyril";
-    /* Applies to all headings */
-    font-family: "Museo Sans Cyril";
-    font-size: 40px;
+    font-family: "MuseoSansCyrl_700";
+    font-size: 38px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
 }
@@ -833,16 +817,11 @@ width: 383px;
 .container1 {
     position: relative;
     display: flex;
-    /* Arrange the circles in a horizontal row */
     justify-content: center;
-    /* Center the circles horizontally */
     gap: 84px;
-    /* Add space between the circles */
     margin-left: 0px;
-
-
     margin-top: 104px;
-    /* Optional: add some top margin */
+    
 }
 
 
@@ -1138,7 +1117,7 @@ width: 383px;
     text-transform: capitalize;
     width: 769px;
     height: 77px;
-    margin-left: 302px;
+    margin-left: 330px;
     margin-top: -120px;
     margin-right: 80px;
 }
